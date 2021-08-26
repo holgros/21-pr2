@@ -1,0 +1,8 @@
+# endast första gången, ändra "holgros/test.git" till vad du nu har för adress till ditt repo
+git init
+git remote add origin https://github.com/holgros/test.git
+
+# varje gång du pushar, ändra "first commit" till någon relevant kommentar för aktuell version
+git add -A
+git commit -m "first commit"
+git push -u origin main
