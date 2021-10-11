@@ -7,6 +7,8 @@ nbr_people = int(nbr_people)
 if nbr_bags < 1 or nbr_bags > 10 or nbr_people < 1 or nbr_people > 100:
     print("Fel input!")
     exit()
+
+# beräkna antal tekannor
 capacities = []
 for i in range(nbr_bags):
     question = "Påse " + str(i+1) + " räcker till ?"
