@@ -1,5 +1,4 @@
 # grundläggande om trådar
-from multiprocessing import Event
 import time
 TIME_INTERVAL = 0.2
 def print_letters():
